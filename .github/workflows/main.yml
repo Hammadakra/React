@@ -31,6 +31,8 @@ jobs:
     - uses : borales/actions-yarn@v2.1.0
     with:
      cmd: install
+  - name : BuildCommand
+    run : npm build  
   - name : install surge
     uses: npm install -g surge
     run : surge./build http:// HammadReact.surge.h / --token $ {{secrets.ReactToken}}
