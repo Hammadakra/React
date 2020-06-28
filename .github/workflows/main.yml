@@ -26,4 +26,4 @@ jobs:
         run: npm install -g surge
 
       - name: Run surge
-        run: surge ./build HammadReactWeb.surge.sh --token ${{ secrets.ReactToken }}
+        run: surge ./build HammadReactWeb.surge.sh --token ${{ Secrets.ReactToken }}
