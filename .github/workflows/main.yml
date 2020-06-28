@@ -20,17 +20,18 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v-2
+    - uses: actions/checkout@v2
     - name: veriosn download
     - uses: actions/setup-node@v2-beta
     with:
       node-version: 12
 
     # Runs a set of commands using the runners shell
-    - name : AboutGetUrl 
-    - uses : Borales/actions-yarn@v2.1.0
+    #- name: git action for yarn
+    - name: fajjjjjjjjjj
+    - uses: Borales/actions-yarn@v2.1.0
     with:
-     cmd: install
+      cmd: install
   - name : BuildCommand
     run : yarn build  
   - name : install surge
