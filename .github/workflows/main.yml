@@ -28,7 +28,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name : AboutGetUrl 
-    - uses : borales/actions-yarn@v2.1.0
+    - uses : borales/actions-npm@v2.1.0
     with:
      cmd: install
   - name : BuildCommand
