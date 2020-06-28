@@ -39,4 +39,4 @@ jobs:
       
       #Deploy surge
     - name: Deply React App to Surge
-      run : surge ./build ReactWorld.surge.sh --token ${{secrets.PROJECT0002_SURGETOKEN}}
+      run : surge ./build ReactWorld.surge.sh --token ${{secrets.REACTTOKEN}}
