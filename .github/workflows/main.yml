@@ -1,6 +1,6 @@
 name: Deploy Website
 
-name: ReactWeb Auto
+on: [push]
 
 jobs:
   build:
